@@ -1,0 +1,59 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1546614409-810f10108b74?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+	background-size: cover;
+}
+h2 {
+	color:#AA4139;
+	text-align: center;
+	border: 5px solid rgba(255,176, 170, 0.5);
+	cursor: pointer;
+}
+p {
+	line-height: 50px;
+	font-style:  italic;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: "Georgia", Times New Roman;
+}
+p {
+	color: pink;
+}
+p {
+	color: green;
+}
+img {
+	float: left;
+}
+footer {
+	clear: both;
+	text-align: center;
+}
+li	{
+	list-style: none;
+	display: block;
+}
+
+
+
+.webtext:last-child {
+	border: 5px dashed blue;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background : rgba(0,0,255,0.2);
+}
+
+#div2 {
+	background : rgba(255, 0, 0, 0.2);
+}
